@@ -1,0 +1,10 @@
+# Only libraries that map to the Applied AI syllabus (plus the UI and OCR engine).
+streamlit>=1.40              # web UI
+opencv-python-headless>=4.8  # Unit II: Computer Vision (OpenCV)
+pytesseract>=0.3.10          # OCR wrapper (needs the Tesseract program installed)
+PyMuPDF>=1.24                # read PDF notes (embedded text + page images for OCR)
+python-pptx>=0.6.23          # read PowerPoint (.pptx) slides, tables and speaker notes
+nltk>=3.8                    # Unit IV: tokenization, stop words, stemming, lemmatization, POS
+scikit-learn>=1.4            # Unit IV: TF-IDF + cosine similarity
+# numpy, pandas and Pillow are installed automatically as dependencies of the packages above.
+# Tests use Python's built-in unittest:  python -m unittest discover tests

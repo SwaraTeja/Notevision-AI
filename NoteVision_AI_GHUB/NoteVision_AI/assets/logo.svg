@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" role="img" aria-label="NoteVision AI logo">
+  <defs>
+    <linearGradient id="nvg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#4F46E5"/><stop offset="1" stop-color="#7C3AED"/>
+    </linearGradient>
+    <linearGradient id="nve" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#4F46E5"/><stop offset="1" stop-color="#9333EA"/>
+    </linearGradient>
+  </defs>
+  <rect width="64" height="64" rx="16" fill="url(#nvg)"/>
+  <rect x="16" y="11" width="32" height="42" rx="6" fill="#fff"/>
+  <rect x="21" y="18" width="16" height="3.2" rx="1.6" fill="#C7CAFB"/>
+  <rect x="21" y="25" width="22" height="3.2" rx="1.6" fill="#E3E5FD"/>
+  <path d="M19.5 39 Q32 28.5 44.5 39 Q32 49.5 19.5 39 Z" fill="#EEF0FF" stroke="url(#nve)" stroke-width="2.4" stroke-linejoin="round"/>
+  <circle cx="32" cy="39" r="4.6" fill="url(#nve)"/>
+  <circle cx="33.6" cy="37.4" r="1.4" fill="#fff"/>
+  <path d="M50 8 L51.7 13.3 L57 15 L51.7 16.7 L50 22 L48.3 16.7 L43 15 L48.3 13.3 Z" fill="#FBBF24"/>
+</svg>

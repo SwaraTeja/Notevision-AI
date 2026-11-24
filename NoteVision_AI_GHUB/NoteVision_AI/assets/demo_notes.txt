@@ -1,0 +1,17 @@
+Machine Learning Basics
+
+Machine learning is a branch of artificial intelligence that lets computers learn patterns from data without being explicitly programmed.
+
+Supervised learning is a type of machine learning where the model is trained on labeled data. Classification and regression are the two main supervised learning tasks. Classification predicts a category, while regression predicts a continuous number.
+
+Unsupervised learning finds hidden patterns in unlabeled data. Clustering is an unsupervised learning technique that groups similar data points together. K-means is a clustering algorithm that assigns each point to the nearest of k centroids.
+
+Overfitting occurs when a model memorizes the training data and performs poorly on new data. Underfitting occurs when a model is too simple to capture the pattern in the data. Cross-validation is a technique used to estimate how well a model will perform on unseen data. Regularization reduces overfitting by penalizing overly complex models.
+
+A decision tree is a model that splits data into branches using feature values. A random forest is an ensemble of many decision trees whose predictions are combined by voting. Ensemble methods improve accuracy by combining several models.
+
+Gradient descent is an optimization algorithm that minimizes the loss function by moving in the direction of the steepest decrease. The learning rate controls the size of each step in gradient descent. A learning rate that is too large can cause the algorithm to overshoot the minimum.
+
+Accuracy measures the proportion of correct predictions. Precision measures how many of the predicted positives are truly positive. Recall measures how many of the actual positives were found by the model. The F1 score is the harmonic mean of precision and recall.
+
+A neural network is a model made of layers of connected neurons that learns complex patterns. Deep learning uses neural networks with many hidden layers. Feature engineering is the process of creating useful input variables from raw data.
